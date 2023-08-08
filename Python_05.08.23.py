@@ -16,10 +16,10 @@ while ():
 
 
 #print numbers using while loop until user input 0
-var1="Avik"
-while (var1=="Avik"): 
-    print(var1)
-    var1=input("Enter your name:")
+# var1="Avik"
+# while (var1=="Avik"): 
+#     print(var1)
+#     var1=input("Enter your name:")
 
 # function
 def fetch_chicken():
@@ -39,3 +39,10 @@ def fetch_chicken():
     pass
 
 fetch_chicken()
+
+num1=float(input("Enter first number:"))
+num2=float(input("Enter second number:"))
+def add(num1,num2):
+    print(f"{num1}+{num2}={num1+num2}")
+
+add(num1=num1,num2=num2)
